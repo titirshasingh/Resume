@@ -1,0 +1,163 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Titirsha Singh - Resume</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet"/>
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(to right, #f8f9fa, #e9ecef);
+      margin: 0;
+      padding: 0;
+      color: #2c3e50;
+    }
+    .container {
+      max-width: 960px;
+      margin: 50px auto;
+      padding: 40px;
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 20px 50px rgba(0, 0, 0, 0.1);
+    }
+    h1 {
+      font-size: 40px;
+      margin-bottom: 0;
+      color: #2c3e50;
+    }
+    .contact p, .contact a {
+      font-size: 15px;
+      color: #555;
+    }
+    h2 {
+      margin-top: 40px;
+      font-size: 24px;
+      color: #007bff;
+      position: relative;
+    }
+    h2::before {
+      content: '';
+      width: 8px;
+      height: 24px;
+      background: #007bff;
+      position: absolute;
+      left: -20px;
+      top: 0;
+    }
+    ul {
+      padding-left: 20px;
+      line-height: 1.8;
+    }
+    .section {
+      margin-top: 20px;
+    }
+    .badge {
+      display: inline-block;
+      background: #f1f3f5;
+      color: #333;
+      padding: 8px 16px;
+      margin: 5px;
+      border-radius: 20px;
+      font-size: 14px;
+      box-shadow: 1px 1px 5px rgba(0,0,0,0.05);
+    }
+    .skills, .certifications {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    a {
+      color: #007bff;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .section-title {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .section-title i {
+      font-size: 20px;
+      color: #007bff;
+    }
+    @media (max-width: 600px) {
+      .skills, .certifications {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Titirsha Singh</h1>
+    <div class="contact">
+      <p><strong>Address:</strong> D-244 Swarn Nagri, Greater Noida</p>
+      <p><strong>Email:</strong> <a href="mailto:titirshaasingh@gmail.com">titirshaasingh@gmail.com</a></p>
+      <p><strong>Phone:</strong> 8527082256</p>
+      <p><a href="https://github.com/TitirshaSingh" target="_blank">GitHub</a> |
+         <a href="https://linkedin.com/in/" target="_blank">LinkedIn</a></p>
+    </div>
+
+    <div class="section">
+      <div class="section-title"><i class="fas fa-user"></i><h2>Summary</h2></div>
+      <p>
+        As a Machine Learning Intern at HCL and Deep Learning Intern at 1Stop.ai, I built real-world AI solutions,
+        including pet classification and landmark detection models. Pursuing B.Tech in Computer Science with
+        specialization in AI at Bennett University, I’m passionate about solving problems using data and intelligent systems.
+        Skilled in Python, SQL, TensorFlow, Keras, PyTorch, and more.
+      </p>
+    </div>
+
+    <div class="section">
+      <div class="section-title"><i class="fas fa-briefcase"></i><h2>Professional Experience</h2></div>
+      <p><strong>Machine Learning Intern</strong> – HCL Technologies Ltd., Noida (Jun 2024 – Jul 2024)</p>
+      <ul>
+        <li>Developed a real-world ML model including preprocessing, training, and evaluation.</li>
+        <li>Used Scikit-learn, Pandas, NumPy, Matplotlib for model development.</li>
+        <li>Improved accuracy with hyperparameter tuning and feature selection.</li>
+        <li>Documented workflow and presented the final project.</li>
+      </ul>
+      <p><strong>Deep Learning Intern</strong> – 1Stop.ai, Greater Noida (Jun 2025 – Jul 2025)</p>
+      <ul>
+        <li>Built CNN-based pet species classifier and landmark detection models.</li>
+        <li>Worked with TensorFlow, Keras, PyTorch using transfer learning, augmentation, etc.</li>
+        <li>Handled large datasets, optimized pipelines, and evaluated with domain-specific metrics.</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <div class="section-title"><i class="fas fa-graduation-cap"></i><h2>Education</h2></div>
+      <p><strong>B.Tech in Computer Science (AI Specialization)</strong><br>Bennett University | 2023 – Present</p>
+    </div>
+
+    <div class="section">
+      <div class="section-title"><i class="fas fa-tools"></i><h2>Skills</h2></div>
+      <div class="skills">
+        <span class="badge">Python</span>
+        <span class="badge">Power BI</span>
+        <span class="badge">SQL</span>
+        <span class="badge">Machine Learning</span>
+        <span class="badge">Deep Learning</span>
+        <span class="badge">Agentic AI</span>
+        <span class="badge">Jira</span>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="section-title"><i class="fas fa-certificate"></i><h2>Certifications</h2></div>
+      <div class="certifications">
+        <span class="badge">Improving Deep Neural Networks – Coursera (Feb 2025)</span>
+        <span class="badge">ML: Classification – Coursera (Sep 2024–25)</span>
+        <span class="badge">ML: Regression – Coursera (Sep 2024–25)</span>
+        <span class="badge">SQL for Data Science – Coursera (Sep 2024)</span>
+        <span class="badge">DB Management Essentials – Coursera (Sep 2024–25)</span>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
